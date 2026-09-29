@@ -209,8 +209,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fb3361285907bd48a3c28980ffe121a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 1919363137839966119, guid: b8ba965077fdf7444b5cf9deef359cbf, type: 3}
+  bullet: {fileID: 1919363137839966119, guid: 9b8bc57abb72787448f31fb4f0e6bfbb, type: 3}
   turret: {fileID: 979707671}
+  enemy: {fileID: 620903246}
+  turretBase: {fileID: 727721683}
 --- !u!65 &588874077
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -396,6 +398,11 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!4 &727721683 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6880403096463785013, guid: e57a33c6f3b0e4cb2a2af014c265b239, type: 3}
+  m_PrefabInstance: {fileID: 1354003426666338538}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &729810330
 GameObject:
   m_ObjectHideFlags: 0
